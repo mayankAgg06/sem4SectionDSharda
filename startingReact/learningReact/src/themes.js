@@ -1,7 +1,7 @@
 // Theme data for your React mini theme changer
 // Each theme contains color values that you can apply to your app
 
-export const themes = [
+const themes = [
   {
     id: 1,
     name: 'Light',
@@ -69,3 +69,5 @@ export const themes = [
     },
   },
 ];
+
+export default themes
